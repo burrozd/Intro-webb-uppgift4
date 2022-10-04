@@ -1,0 +1,28 @@
+h1 {
+    color: cornflowerblue;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+input {
+    border-color: black;
+}
+
+button {
+    border-color: black;
+    background-color: aquamarine;
+}
+
+body {
+    background-color: bisque;
+}
