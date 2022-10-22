@@ -14,6 +14,7 @@ const list = document.querySelector("ul");
 const msg = document.querySelector("#message");
 const completed = document.querySelector("p");
 const toDoArray = [];
+const taskList = document.querySelector("#taskList");
 
 let text;
 let message;
@@ -39,8 +40,7 @@ addButton.addEventListener(
         list.appendChild(item);
 
         const itemLabel = document.createElement("span");
-        itemLabel.innerText = text;
-
+        itemLabel.innerText = text; +
         item.appendChild(itemLabel);
 
         itemLabel.addEventListener("click", function() {
